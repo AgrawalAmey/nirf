@@ -1,0 +1,312 @@
+Value InstituteName (.*)
+Value NumberOfFacultyWithPhd (\d+)
+Value TotalNumberOfFaculty (\d+)
+Value NumberOfWomenFaculty (\d+)
+Value AcademicYear (\d+-\d+)
+Value FinancialYear (\d+-\d+)
+Value ProgramLevel (.* \[.* .*\])
+Value ApprovedIntake (\d+)
+Value MaleStudents (\d+)
+Value FemaleStudents (\d+)
+Value TotalStudents (\d+)
+Value StudentsFromWithinState (\d+)
+Value StudentsFromOutsideState (\d+)
+Value StudentsFromOutsideCountry (\d+)
+Value EconomicallyBackwardStudents (\d+)
+Value SociallyChallengedStudents (\d+)
+Value StudentsWithGovernmentScholarships (\d+)
+Value StudentsWithInstituteScholarships (\d+)
+Value StudentsWithPrivateScholarships (\d+)
+Value StudentsWithNoScholarships (\d+)
+Value StudentsPlacedThroughPlacements (\d+)
+Value StudentsWentForHigherStudies (\d+)
+Value MedianSalary (\d+)
+Value FullTimePhDStudents (\d+)
+Value PartTimePhDStudents (\d+)
+Value List GraduatedFullTimePhDStudents (\d+)
+Value List GraduatedPartTimePhDStudents (\d+)
+Value StudentsAdmittedInFY (\d+)
+Value StudentsAdmittedThroughLateralEntry (\d+)
+Value StudentsGraduatingInMinTime (\d+)
+Value AnnualCapitalExpenditure (\d+)
+Value AnnualOperationalExpenditure (\d+)
+Value AnnualTotalExpenditure (\d+)
+Value SourceOfPublicationData (Web of Science|Scopus)
+Value NumberOfPublications (\d+)
+Value NumberOfCitations (\d+)
+Value TopCitedPapers (\d+)
+Value NumberOfExProg (\d+)
+Value NumberOfExProgParticipants (\d+)
+Value EarningFromExProg (\d+)
+Value PatentsGranted (\d+)
+Value PatentsPublished (\d+)
+Value EarningFromPatents (\d+)
+Value SponsoredResearchProjectAmount (\d+)
+Value ConsultancyProjectsAmount (\d+)
+Value HasRamps (Yes, in all the buildings|Yes, in some of the buildings|No)
+Value HasWheelChairs (Yes, in all the buildings|Yes, in some of the buildings|No)
+Value HasAccessibleToilets (Yes, in all the buildings|Yes, in some of the buildings|No)
+Value PerceptionScore (\d+) 
+
+########################################################
+# Institute Name
+########################################################
+
+Start
+  ^Institute Name:\s+${InstituteName} -> FacultyDetails
+
+########################################################
+# Faculty Details
+########################################################
+
+FacultyDetails
+  ^No. of Faculty members with Ph.D qualification -> NumberOfFacultyWithPhd
+  ^No. of Women Faculty members -> TotalNumberOfFaculty
+  ^OBC\) -> Record StudentsDetails
+
+NumberOfFacultyWithPhd
+  ^${NumberOfFacultyWithPhd} -> FacultyDetails
+
+TotalNumberOfFaculty
+  ^${TotalNumberOfFaculty} -> NumberOfWomenFaculty
+
+NumberOfWomenFaculty
+  ^${NumberOfWomenFaculty} -> FacultyDetails
+
+########################################################
+# Students Details
+########################################################
+
+StudentsDetails
+  ^Scholarships -> ScholarshipDetails
+  ^${AcademicYear} -> ProgramLevelStudentsDetails
+
+ProgramLevelStudentsDetails
+  ^${ProgramLevel} -> ApprovedIntake
+
+ApprovedIntake
+  ^${ApprovedIntake} -> MaleStudents
+
+MaleStudents
+  ^${MaleStudents} -> FemaleStudents
+
+FemaleStudents
+  ^${FemaleStudents} -> TotalStudents
+
+TotalStudents
+  ^${TotalStudents} -> StudentsFromWithinState
+
+StudentsFromWithinState
+  ^${StudentsFromWithinState} -> StudentsFromOutsideState
+
+StudentsFromOutsideState
+  ^${StudentsFromOutsideState} -> StudentsFromOutsideCountry
+
+StudentsFromOutsideCountry
+  ^${StudentsFromOutsideCountry} -> EconomicallyBackwardStudents
+
+EconomicallyBackwardStudents
+  ^${EconomicallyBackwardStudents} -> SociallyChallengedStudents
+
+SociallyChallengedStudents
+  ^${SociallyChallengedStudents} -> Record StudentsDetails
+
+########################################################
+# Scholarship Details
+########################################################
+
+ScholarshipDetails
+  ^Placement and Higher Studies -> PlacementDetails
+  ^${AcademicYear} -> ProgramLevelScholarshipDetails
+
+ProgramLevelScholarshipDetails
+  ^${ProgramLevel} -> StudentsWithGovernmentScholarships
+
+StudentsWithGovernmentScholarships
+  ^${StudentsWithGovernmentScholarships} -> StudentsWithInstituteScholarships
+
+StudentsWithInstituteScholarships
+  ^${StudentsWithInstituteScholarships} -> StudentsWithPrivateScholarships
+
+StudentsWithPrivateScholarships
+  ^${StudentsWithPrivateScholarships} -> StudentsWithNoScholarships
+
+StudentsWithNoScholarships
+  ^${StudentsWithNoScholarships} -> Record ScholarshipDetails
+
+########################################################
+# Placements and Higher Studies Details
+########################################################
+
+PlacementDetails
+  ^University Exam Details -> Record ExamDetails
+  ^Ph.D Student Details -> PhDStudentDetails
+  ^${AcademicYear} -> ProgramLevelPlacementDetails
+
+ProgramLevelPlacementDetails
+  ^${ProgramLevel} -> StudentsPlacedThroughPlacements
+
+StudentsPlacedThroughPlacements
+  ^${StudentsPlacedThroughPlacements} -> StudentsWentForHigherStudies
+
+StudentsWentForHigherStudies
+  ^${StudentsWentForHigherStudies} -> MedianSalary
+
+MedianSalary
+  ^${MedianSalary} -> Record PlacementDetails
+
+########################################################
+# PhD Students Details
+########################################################
+
+PhDStudentDetails
+  ^Full Time -> FullTimePhDStudents
+  ^Part Time -> PartTimePhDStudents
+
+FullTimePhDStudents
+  ^${FullTimePhDStudents} -> PhDStudentDetails
+
+PartTimePhDStudents
+  ^${PartTimePhDStudents} -> GraduatedPhDStudentsDetails
+
+GraduatedPhDStudentsDetails
+  ^Full Time -> GraduatedFullTimePhDStudents
+
+GraduatedFullTimePhDStudents
+  ^Part Time -> GraduatedPartTimePhDStudents
+  ^${GraduatedFullTimePhDStudents} -> Continue
+
+GraduatedPartTimePhDStudents
+  ^University Exam Details -> Record ExamDetails
+  ^${GraduatedPartTimePhDStudents} ->  Continue
+
+########################################################
+# Exam Details
+########################################################
+
+ExamDetails
+  ^Financial Resources and its Utilization -> Record FinancialResourcesDetails
+  ^${AcademicYear} -> ProgramLevelExamDetails
+
+ProgramLevelExamDetails
+  ^${ProgramLevel} -> StudentsAdmittedInFY
+
+StudentsAdmittedInFY
+  ^${StudentsAdmittedInFY} -> StudentsAdmittedThroughLateralEntry
+
+StudentsAdmittedThroughLateralEntry
+  ^${StudentsAdmittedThroughLateralEntry} -> StudentsGraduatingInMinTime
+
+StudentsGraduatingInMinTime
+  ^${StudentsGraduatingInMinTime} -> Record ExamDetails
+
+########################################################
+# Finance Details
+########################################################
+
+FinancialResourcesDetails
+  ^Publication Details -> Record PublicationDetails
+  ^${FinancialYear} -> AnnualCapitalExpenditure
+
+AnnualCapitalExpenditure
+  ^${AnnualCapitalExpenditure} -> AnnualOperationalExpenditure
+
+AnnualOperationalExpenditure
+  ^${AnnualOperationalExpenditure} -> AnnualTotalExpenditure
+
+AnnualTotalExpenditure
+  ^${AnnualTotalExpenditure} -> Record FinancialResourcesDetails
+
+########################################################
+# Publication Details
+########################################################
+
+PublicationDetails
+  ^Executive Development Programs -> Record ExProgDetails
+  ^Patent Details -> Record PatentDetails
+  ^Sponsored Research Project Details -> Record SponsoredResearchProjectDetails
+  ^Facilities for Physically Challenged Students -> Record HasRamps
+  ^${SourceOfPublicationData} -> NumberOfPublications
+
+NumberOfPublications
+  ^${NumberOfPublications} -> NumberOfCitations
+
+NumberOfCitations
+  ^${NumberOfCitations} -> TopCitedPapers
+
+TopCitedPapers
+  ^${TopCitedPapers} -> Record PublicationDetails
+
+########################################################
+# Executive Program Details
+########################################################
+
+ExProgDetails
+  ^Patent Details -> Record PatentDetails
+  ^Sponsored Research Project Details -> Record SponsoredResearchProjectDetails
+  ^${FinancialYear} -> NumberOfExProg
+
+NumberOfExProg
+  ^${NumberOfExProg} -> NumberOfExProgParticipants
+
+NumberOfExProgParticipants
+  ^${NumberOfExProgParticipants} -> EarningFromExProg
+
+EarningFromExProg
+  ^${EarningFromExProg} -> Record ExProgDetails
+
+########################################################
+# Patent Details
+########################################################
+
+PatentDetails
+  ^${PatentsGranted} -> PatentsPublished
+
+PatentsPublished
+  ^${PatentsPublished} -> EarningFromPatents
+
+EarningFromPatents
+  ^${EarningFromPatents}
+  ^Sponsored Research Project Details -> Record SponsoredResearchProjectDetails
+
+########################################################
+# Sponsored Research Details
+########################################################
+
+SponsoredResearchProjectDetails
+  ^Consultancy Project Details -> Record ConsultancyProjectsDetails
+  ^${FinancialYear} -> SponsoredResearchProjectAmount
+
+SponsoredResearchProjectAmount
+  ^${SponsoredResearchProjectAmount} -> Record SponsoredResearchProjectDetails
+
+########################################################
+# Consultancy Research Details
+########################################################
+
+ConsultancyProjectsDetails
+  ^Facilities for Physically Challenged Students -> Record HasRamps
+  ^${FinancialYear} -> ConsultancyProjectsAmount
+
+ConsultancyProjectsAmount
+  ^${ConsultancyProjectsAmount} -> Record ConsultancyProjectsDetails
+
+########################################################
+# Accessibility and Perception Details 
+########################################################
+
+HasRamps
+  ^${HasRamps} -> HasWheelChairs
+
+HasWheelChairs
+  ^${HasWheelChairs} -> HasAccessibleToilets
+
+HasAccessibleToilets
+  ^${HasAccessibleToilets} -> PerceptionScore
+
+PerceptionScore
+  ^Perception -> PerceptionScore1
+
+PerceptionScore1
+  ^Responsibility for accuracy -> Record
+  ^${PerceptionScore}
