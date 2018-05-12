@@ -4,7 +4,7 @@ Value TotalNumberOfFaculty (\d+)
 Value NumberOfWomenFaculty (\d+)
 Value AcademicYear (\d+-\d+)
 Value FinancialYear (\d+-\d+)
-Value ProgramLevel (.* \[.* .*\])
+Value ProgramLevel (.* \[.*)
 Value ApprovedIntake (\d+)
 Value MaleStudents (\d+)
 Value FemaleStudents (\d+)
@@ -299,14 +299,17 @@ HasRamps
   ^${HasRamps} -> HasWheelChairs
 
 HasWheelChairs
-  ^${HasWheelChairs} -> HasAccessibleToilets
+  ^${HasWheelChairs} -> MidLifeCrisis
 
-HasAccessibleToilets
+# For some reason some text file have PerceptionScore above HasAccessibleToilets
+MidLifeCrisis
+  ^${PerceptionScore} -> HasAccessibleToilets
   ^${HasAccessibleToilets} -> PerceptionScore
 
-PerceptionScore
-  ^Perception -> PerceptionScore1
+HasAccessibleToilets
+  ^Responsibility for accuracy -> Record
+  ^${HasAccessibleToilets}
 
-PerceptionScore1
+PerceptionScore
   ^Responsibility for accuracy -> Record
   ^${PerceptionScore}

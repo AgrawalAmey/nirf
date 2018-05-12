@@ -5,7 +5,7 @@ import textfsm
 
 class TemplateParser(object):
     def __init__(self):
-        self.TEMPLATE_FILE = 'templates/enginnering.txt'
+        self.TEMPLATE_FILE = 'nirf.template'
         
         self.nested_fields = ['ProgramLevel',
                          'SourceOfPublicationData', 'FinancialYear']

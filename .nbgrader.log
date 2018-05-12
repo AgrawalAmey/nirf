@@ -1,0 +1,515 @@
+[NotebookApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /media/zero/data1/projects/ongoing/nirf++
+[NotebookApp | INFO] 0 active kernels
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8889/?token=2c4aefa9372d70c6c29454adf2d8ddbb865c21a9b13cfbdc
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | CRITICAL] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8889/?token=2c4aefa9372d70c6c29454adf2d8ddbb865c21a9b13cfbdc
+[NotebookApp | INFO] Accepting one-time-token-authenticated connection from 127.0.0.1
+[NotebookApp | INFO] Creating new notebook in /src
+[NotebookApp | INFO] Kernel started: 21fb9a8c-2c01-40ac-9edd-69f2e58013c1
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 21fb9a8c-2c01-40ac-9edd-69f2e58013c1
+[NotebookApp | INFO] Saving file at /src/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /src/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /src/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /src/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /src/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /src/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /src/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /src/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /src/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /src/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /src/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /src/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /src/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /src/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /src/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /src/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /src/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /src/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /src/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /src/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /src/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /src/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /src/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /src/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /src/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /src/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /src/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /src/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /src/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /src/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /src/Untitled.ipynb
+[NotebookApp | INFO] Kernel interrupted: 21fb9a8c-2c01-40ac-9edd-69f2e58013c1
+[NotebookApp | INFO] Saving file at /src/Untitled.ipynb
+[NotebookApp | INFO] Starting buffering for 21fb9a8c-2c01-40ac-9edd-69f2e58013c1:9805651afe8646b28ef733d4d655ee43
+[NotebookApp | INFO] Kernel restarted: 21fb9a8c-2c01-40ac-9edd-69f2e58013c1
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 21fb9a8c-2c01-40ac-9edd-69f2e58013c1
+[NotebookApp | INFO] Restoring connection for 21fb9a8c-2c01-40ac-9edd-69f2e58013c1:9805651afe8646b28ef733d4d655ee43
+[NotebookApp | INFO] Replaying 6 buffered messages
+[NotebookApp | INFO] Saving file at /src/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /src/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /src/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /src/Untitled.ipynb
+[NotebookApp | INFO] Starting buffering for 21fb9a8c-2c01-40ac-9edd-69f2e58013c1:9805651afe8646b28ef733d4d655ee43
+[NotebookApp | INFO] Kernel restarted: 21fb9a8c-2c01-40ac-9edd-69f2e58013c1
+[NotebookApp | INFO] KernelRestarter: restarting kernel (1/5), keep random ports
+[NotebookApp | INFO] KernelRestarter: restarting kernel (2/5), keep random ports
+[NotebookApp | INFO] KernelRestarter: restarting kernel (3/5), keep random ports
+[NotebookApp | INFO] KernelRestarter: restarting kernel (4/5), keep random ports
+[NotebookApp | WARNING] KernelRestarter: restart failed
+[NotebookApp | WARNING] Kernel 21fb9a8c-2c01-40ac-9edd-69f2e58013c1 died, removing from map.
+[NotebookApp | WARNING] Restarting kernel failed: 21fb9a8c-2c01-40ac-9edd-69f2e58013c1
+[NotebookApp | ERROR] Exception restarting kernel
+    Traceback (most recent call last):
+      File "/media/zero/data1/anaconda3/lib/python3.6/site-packages/notebook/services/kernels/handlers.py", line 85, in post
+        yield gen.maybe_future(km.restart_kernel(kernel_id))
+      File "/media/zero/data1/anaconda3/lib/python3.6/site-packages/tornado/gen.py", line 1055, in run
+        raise KeyReuseError("key %r is already pending" % (key,))
+      File "/media/zero/data1/anaconda3/lib/python3.6/site-packages/tornado/concurrent.py", line 238, in result
+        """Returns True if the future has finished running."""
+      File "<string>", line 4, in raise_exc_info
+    RuntimeError: Restart failed
+[NotebookApp | ERROR] {
+      "Host": "localhost:8889",
+      "Connection": "keep-alive",
+      "Content-Length": "0",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Origin": "http://localhost:8889",
+      "X-Requested-With": "XMLHttpRequest",
+      "X-Xsrftoken": "2|2d5d41d7|d0da6ea63662750a75c5e4b3d5da2a70|1525953290",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36",
+      "Referer": "http://localhost:8889/notebooks/src/Untitled.ipynb?kernel_name=python3",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Accept-Language": "en-US,en;q=0.9",
+      "Cookie": "__utma=111872281.1409405183.1521873868.1521873868.1521873868.1; __utmz=111872281.1521873868.1.1.utmcsr=127.0.0.1:4000|utmccn=(referral)|utmcmd=referral|utmcct=/; _xsrf=2|2d5d41d7|d0da6ea63662750a75c5e4b3d5da2a70|1525953290; username-localhost-8888=\"2|1:0|10:1525976331|23:username-localhost-8888|44:Yjc4YTM1MGI2NWI2NGExNmI4YzY3MzBhMjJmOTIyNDc=|c0fbd1cc95f521b8b8bfab029646ab562c7dc9787a865fdecc6f447e0c12d857\"; username-localhost-8889=\"2|1:0|10:1525981270|23:username-localhost-8889|44:ZDNkYzllNWQ4ZjAxNGY2MjllNTFhMTI0OGE5YWY1Y2U=|0dd678a67213b21d5c2efba94339fff0f84c2245cfc30b0cbc8a664fe9f10409\""
+    }
+[NotebookApp | ERROR] 500 POST /api/kernels/21fb9a8c-2c01-40ac-9edd-69f2e58013c1/restart (127.0.0.1) 21530.00ms referer=http://localhost:8889/notebooks/src/Untitled.ipynb?kernel_name=python3
+[NotebookApp | WARNING] 410 DELETE /api/sessions/d16945e6-db46-4d35-b0c2-4247b0fe6223 (127.0.0.1): Kernel deleted before session
+[NotebookApp | WARNING] Kernel deleted before session
+[NotebookApp | WARNING] 410 DELETE /api/sessions/d16945e6-db46-4d35-b0c2-4247b0fe6223 (127.0.0.1) 3.01ms referer=http://localhost:8889/notebooks/src/Untitled.ipynb?kernel_name=python3
+[NotebookApp | INFO] Kernel started: 8e11b876-fa0e-46d9-a6ae-8dcd95c223e9
+[NotebookApp | INFO] KernelRestarter: restarting kernel (1/5), new random ports
+[NotebookApp | INFO] KernelRestarter: restarting kernel (2/5), new random ports
+[NotebookApp | INFO] KernelRestarter: restarting kernel (3/5), new random ports
+[NotebookApp | WARNING] Timeout waiting for kernel_info reply from 8e11b876-fa0e-46d9-a6ae-8dcd95c223e9
+[NotebookApp | INFO] KernelRestarter: restarting kernel (4/5), new random ports
+[NotebookApp | WARNING] KernelRestarter: restart failed
+[NotebookApp | WARNING] Kernel 8e11b876-fa0e-46d9-a6ae-8dcd95c223e9 died, removing from map.
+[NotebookApp | WARNING] 410 DELETE /api/sessions/b9ad5848-437c-482f-94f0-27513422bdc7 (127.0.0.1): Kernel deleted before session
+[NotebookApp | WARNING] Kernel deleted before session
+[NotebookApp | WARNING] 410 DELETE /api/sessions/b9ad5848-437c-482f-94f0-27513422bdc7 (127.0.0.1) 3.50ms referer=http://localhost:8889/notebooks/src/Untitled.ipynb?kernel_name=python3
+[NotebookApp | WARNING] 404 DELETE /api/sessions/b9ad5848-437c-482f-94f0-27513422bdc7 (127.0.0.1): Session not found: session_id='b9ad5848-437c-482f-94f0-27513422bdc7'
+[NotebookApp | WARNING] Session not found: session_id='b9ad5848-437c-482f-94f0-27513422bdc7'
+[NotebookApp | WARNING] 404 DELETE /api/sessions/b9ad5848-437c-482f-94f0-27513422bdc7 (127.0.0.1) 2.99ms referer=http://localhost:8889/notebooks/src/Untitled.ipynb?kernel_name=python3
+[NotebookApp | INFO] Kernel started: 4dddc0b1-caae-435f-9b4f-bf54c2ed3ffa
+[NotebookApp | INFO] KernelRestarter: restarting kernel (1/5), new random ports
+[NotebookApp | INFO] KernelRestarter: restarting kernel (2/5), new random ports
+[NotebookApp | INFO] KernelRestarter: restarting kernel (3/5), new random ports
+[NotebookApp | WARNING] Timeout waiting for kernel_info reply from 4dddc0b1-caae-435f-9b4f-bf54c2ed3ffa
+[NotebookApp | INFO] KernelRestarter: restarting kernel (4/5), new random ports
+[NotebookApp | WARNING] KernelRestarter: restart failed
+[NotebookApp | WARNING] Kernel 4dddc0b1-caae-435f-9b4f-bf54c2ed3ffa died, removing from map.
+[NotebookApp | WARNING] 410 DELETE /api/sessions/cba111d2-4a38-42f6-87d8-3cb465816f29 (127.0.0.1): Kernel deleted before session
+[NotebookApp | WARNING] Kernel deleted before session
+[NotebookApp | WARNING] 410 DELETE /api/sessions/cba111d2-4a38-42f6-87d8-3cb465816f29 (127.0.0.1) 2.99ms referer=http://localhost:8889/notebooks/src/Untitled.ipynb?kernel_name=python3
+[NotebookApp | WARNING] 404 DELETE /api/sessions/cba111d2-4a38-42f6-87d8-3cb465816f29 (127.0.0.1): Session not found: session_id='cba111d2-4a38-42f6-87d8-3cb465816f29'
+[NotebookApp | WARNING] Session not found: session_id='cba111d2-4a38-42f6-87d8-3cb465816f29'
+[NotebookApp | WARNING] 404 DELETE /api/sessions/cba111d2-4a38-42f6-87d8-3cb465816f29 (127.0.0.1) 2.88ms referer=http://localhost:8889/notebooks/src/Untitled.ipynb?kernel_name=python3
+[NotebookApp | INFO] Kernel started: ba6d96ec-9fea-4dff-97ab-dd5d8cdcb754
+[NotebookApp | INFO] KernelRestarter: restarting kernel (1/5), new random ports
+[NotebookApp | INFO] Saving file at /src/Untitled.ipynb
+[NotebookApp | INFO] KernelRestarter: restarting kernel (2/5), new random ports
+[NotebookApp | INFO] KernelRestarter: restarting kernel (3/5), new random ports
+[NotebookApp | WARNING] Timeout waiting for kernel_info reply from ba6d96ec-9fea-4dff-97ab-dd5d8cdcb754
+[NotebookApp | INFO] interrupted
+[NotebookApp | INFO] KernelRestarter: restarting kernel (4/5), new random ports
+[NotebookApp | CRITICAL] Shutdown confirmed
+[NotebookApp | INFO] Shutting down 1 kernel
+[NotebookApp | INFO] Kernel shutdown: ba6d96ec-9fea-4dff-97ab-dd5d8cdcb754
+[NotebookApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /media/zero/data1/projects/ongoing/nirf++
+[NotebookApp | INFO] 0 active kernels
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8889/?token=31085e7239482859bc0d709dbfb4b913f7bed84a30eb0ed5
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | CRITICAL] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8889/?token=31085e7239482859bc0d709dbfb4b913f7bed84a30eb0ed5
+[NotebookApp | INFO] Accepting one-time-token-authenticated connection from 127.0.0.1
+[NotebookApp | INFO] Kernel started: cffc8d38-9d4f-42df-b484-b0640e98a48d
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel cffc8d38-9d4f-42df-b484-b0640e98a48d
+[NotebookApp | INFO] Saving file at /src/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /src/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /src/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /src/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /src/Untitled.ipynb
+[NotebookApp | INFO] Starting buffering for cffc8d38-9d4f-42df-b484-b0640e98a48d:3f2caa3869f148a18bb1cf05bb462b69
+[NotebookApp | INFO] Kernel restarted: cffc8d38-9d4f-42df-b484-b0640e98a48d
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel cffc8d38-9d4f-42df-b484-b0640e98a48d
+[NotebookApp | INFO] Restoring connection for cffc8d38-9d4f-42df-b484-b0640e98a48d:3f2caa3869f148a18bb1cf05bb462b69
+[NotebookApp | INFO] Replaying 6 buffered messages
+[NotebookApp | INFO] Saving file at /src/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /src/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /src/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /src/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /src/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /src/Untitled.ipynb
+[NotebookApp | INFO] Starting buffering for cffc8d38-9d4f-42df-b484-b0640e98a48d:3f2caa3869f148a18bb1cf05bb462b69
+[NotebookApp | INFO] Kernel restarted: cffc8d38-9d4f-42df-b484-b0640e98a48d
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel cffc8d38-9d4f-42df-b484-b0640e98a48d
+[NotebookApp | INFO] Restoring connection for cffc8d38-9d4f-42df-b484-b0640e98a48d:3f2caa3869f148a18bb1cf05bb462b69
+[NotebookApp | INFO] Replaying 6 buffered messages
+[NotebookApp | INFO] Saving file at /src/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /src/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /src/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /src/Untitled.ipynb
+[NotebookApp | INFO] Starting buffering for cffc8d38-9d4f-42df-b484-b0640e98a48d:3f2caa3869f148a18bb1cf05bb462b69
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel cffc8d38-9d4f-42df-b484-b0640e98a48d
+[NotebookApp | INFO] Saving file at /src/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /src/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /src/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /src/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /src/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /src/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /src/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /src/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /src/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /src/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /src/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /src/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /src/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /src/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /src/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /src/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /src/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /src/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /src/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /src/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /src/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /src/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /src/Untitled.ipynb
+[NotebookApp | INFO] Starting buffering for cffc8d38-9d4f-42df-b484-b0640e98a48d:7c19269b4e144e9585e6c1518d23dbe1
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel cffc8d38-9d4f-42df-b484-b0640e98a48d
+[NotebookApp | INFO] Saving file at /src/Untitled.ipynb
+[NotebookApp | INFO] Starting buffering for cffc8d38-9d4f-42df-b484-b0640e98a48d:9528b8e4b71a4316906086282157d7d3
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel cffc8d38-9d4f-42df-b484-b0640e98a48d
+[NotebookApp | INFO] Saving file at /src/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /src/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /src/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /src/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /src/Untitled.ipynb
+[NotebookApp | INFO] Starting buffering for cffc8d38-9d4f-42df-b484-b0640e98a48d:931c87a6ae6840358cd2c721a5cf0c44
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel cffc8d38-9d4f-42df-b484-b0640e98a48d
+[NotebookApp | INFO] Starting buffering for cffc8d38-9d4f-42df-b484-b0640e98a48d:a4e0f8869d4e4ea88ca6cad3f362fda6
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel cffc8d38-9d4f-42df-b484-b0640e98a48d
+[NotebookApp | INFO] Starting buffering for cffc8d38-9d4f-42df-b484-b0640e98a48d:475c3c0f3ff64ca49bd0d0f844f901cc
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel cffc8d38-9d4f-42df-b484-b0640e98a48d
+[NotebookApp | INFO] Saving file at /src/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /src/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /src/Untitled.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Kernel interrupted: cffc8d38-9d4f-42df-b484-b0640e98a48d
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Starting buffering for cffc8d38-9d4f-42df-b484-b0640e98a48d:aa1043f589874bdd8432945ea5100bd1
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel cffc8d38-9d4f-42df-b484-b0640e98a48d
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Starting buffering for cffc8d38-9d4f-42df-b484-b0640e98a48d:cf8079882f5e451da30f393f2e8c9999
+[NotebookApp | INFO] Kernel restarted: cffc8d38-9d4f-42df-b484-b0640e98a48d
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel cffc8d38-9d4f-42df-b484-b0640e98a48d
+[NotebookApp | INFO] Restoring connection for cffc8d38-9d4f-42df-b484-b0640e98a48d:cf8079882f5e451da30f393f2e8c9999
+[NotebookApp | INFO] Replaying 6 buffered messages
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /media/zero/data1/projects/ongoing/nirf++
+[NotebookApp | INFO] 0 active kernels
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://localhost:8888/?token=565e78b7743344b2d3fbb18442d2c7630324173b6c440691
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | CRITICAL] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=565e78b7743344b2d3fbb18442d2c7630324173b6c440691
+[NotebookApp | INFO] Accepting one-time-token-authenticated connection from 127.0.0.1
+[NotebookApp | INFO] Kernel started: 06f522fe-fe2a-42af-b65c-028d5de69c46
+[NotebookApp | INFO] Adapting to protocol v5.1 for kernel 06f522fe-fe2a-42af-b65c-028d5de69c46
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | WARNING] 404 GET /static/components/preact/preact.min.js.map (127.0.0.1) 36.69ms referer=None
+[NotebookApp | WARNING] 404 GET /static/components/proptypes/index.js.map (127.0.0.1) 2.24ms referer=None
+[NotebookApp | WARNING] 404 GET /static/components/preact-compat/preact-compat.min.js.map (127.0.0.1) 2.19ms referer=None
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | WARNING] 404 GET /api/contents/src/NIRF%20Analysis.ipynb?content=0&_=1526125422165 (127.0.0.1): No such file or directory: src/NIRF Analysis.ipynb
+[NotebookApp | WARNING] No such file or directory: src/NIRF Analysis.ipynb
+[NotebookApp | WARNING] 404 GET /api/contents/src/NIRF%20Analysis.ipynb?content=0&_=1526125422165 (127.0.0.1) 3.49ms referer=http://localhost:8888/notebooks/src/NIRF%20Analysis.ipynb
+[NotebookApp | INFO] Uploading file to /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
+[NotebookApp | INFO] Saving file at /src/NIRF Analysis.ipynb
