@@ -22,6 +22,3 @@ download_pdfs architecture https://www.nirfindia.org/2018/ArchitectureRanking.ht
 # Convert files to text
 echo 'Converting PDF files to text files...'
 find rankings -name "*.pdf" -exec pdftotext {} \;
-
-# Convert strings to int
-find rankings -name "*.json" -exec perl -i -p -e 's/"(\d+)"/$1/g' {} \;
