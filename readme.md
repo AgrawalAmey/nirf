@@ -4,7 +4,7 @@ For mining and analyzing information uploaded on Nation Institute Ranking Framew
 
 ## Downloading PDFs
 
-PDFs for all the institutes of all categories are download and converted into text text files by the following command.
+PDFs for all the institutes of all categories are download and converted into text files by the following command.
 
 ```bash
 > pushd src
@@ -24,8 +24,8 @@ The `process.py` file creates JSONs from the output of `pdftotext` using `TextFS
 > popd 
 ```
 
-Disclaimer: Some of the files might not get correctly parsed and might need to some manual effort.
+Disclaimer: Some of the files might not get correctly parsed and might need some manual effort.
 
 ## Analyzing the data
 
-The notebook `NIRF Analysis.ipynb` contains the source for all the analysis and plotting.
+The notebook `NIRF Analysis.ipynb` contains the source for all the analysis and plots.
